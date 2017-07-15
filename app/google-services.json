@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "140633755954-hba7b05h39ajsmsr3ae68gdef8b8een1.apps.googleusercontent.com",
+          "client_id": "140633755954-bnghk5qrnhmpobp3e400p3a9hbm3qkqa.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.street35.booked",
-            "certificate_hash": "c84c6070ceefd82ef2e4b87b4a9ac4601e150838"
+            "certificate_hash": "65d39ef256c26af22216f2f0cd91a3f48889df6b"
           }
         },
         {
