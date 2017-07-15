@@ -71,6 +71,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.location_fragment);
+
         Log.d("Adsdsdsdsds", "Sdsdsdsdsdsdsdsdsdsdsdsdsdssdss");
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);
@@ -98,7 +99,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
+        mapFragment.getMapAsync(MapsActivity.this);
 
         googleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
@@ -223,9 +224,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     @Override
-    public void onMapReady(GoogleMap googleMap) {
+    public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
-        mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         //  ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
 
         // mMap.setMyLocationEnabled(true);
@@ -243,7 +244,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             return;
         }
 
-        mMap.setMyLocationEnabled(true);
+        googleMap.setMyLocationEnabled(true);
         locationRequest = LocationRequest.create()
                 .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
                 .setInterval(10 * 1000)        // 10 seconds, in milliseconds
@@ -261,10 +262,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 //.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_directions_car_black_24dp))
         );
 */
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,5));
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,5));
         addMarker();
 
-        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+        googleMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
 
             @Override
             public boolean onMarkerClick(Marker marker) {
@@ -273,7 +274,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     destlongitude = latLng.longitude;
                     destlatitude = latLng.latitude;
                     LatLng dest = new LatLng(destlatitude, destlongitude);
-                    mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(dest,15));
+                    googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(dest,15));
                     marker.showInfoWindow();
 
                     return true;
@@ -282,7 +283,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
-
+        mMap = googleMap;
 
 
 
