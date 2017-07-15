@@ -217,6 +217,8 @@ public class EnterDetails extends AppCompatActivity {
 
                             String check = obj.getString("totalItems");
                             if(check.endsWith("0")){
+
+                                Log.d("TwoAdd" , "No Data");
                                 dialog.dismiss();
                                 dialog.cancel();
                                 new MaterialDialog.Builder(EnterDetails.this)
@@ -245,6 +247,8 @@ public class EnterDetails extends AppCompatActivity {
                                         .show();
                             }else {
 
+
+                                Log.d("TwoAdd" , "Yes Data");
                                 JSONArray items = obj.getJSONArray("items");
                                 JSONObject info = items.getJSONObject(0);
                                 JSONObject abc = info.getJSONObject("volumeInfo");
@@ -268,6 +272,65 @@ public class EnterDetails extends AppCompatActivity {
 
 
                         } catch (JSONException e) {
+                            Log.d("TwoAdd" , e.getMessage() + "<--");
+                            dialog.dismiss();
+                            dialog.cancel();
+                            /*Intent i = new Intent(EnterDetails.this,BottomNavigation.class);
+                            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                            i.putExtra("E/D", "E");
+                            startActivity(i);
+                            finish();
+                            new MaterialDialog.Builder(EnterDetails.this)
+                                    .title("Some Information is missing")
+                                    .content("Try to search for other ISBN for the same book")
+                                    .positiveText("Okay")
+                                    .positiveColor(Color.BLACK)
+                                    .cancelable(false)
+                                    .showListener(new DialogInterface.OnShowListener() {
+                                        @Override
+                                        public void onShow(DialogInterface dialog) {
+
+                                        }
+                                    })
+                                    .onPositive(new MaterialDialog.SingleButtonCallback() {
+                                        @Override
+                                        public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
+
+                                            newActivity(1);
+                                        }
+                                    })
+                                    .show();
+                            */
+
+
+                            new MaterialDialog.Builder(EnterDetails.this)
+                                    .title("No Information")
+                                    .content("No data for this ISBN. You can enter manually.")
+                                    .positiveText("Okay")
+                                    .positiveColor(Color.BLACK)
+                                    .cancelable(false)
+                                    .showListener(new DialogInterface.OnShowListener() {
+                                        @Override
+                                        public void onShow(DialogInterface dialog) {
+
+                                        }
+                                    })
+                                    .onPositive(new MaterialDialog.SingleButtonCallback() {
+                                        @Override
+                                        public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
+
+
+                                            //Intent i = new Intent(EnterDetails.this,TwoAddOptions.class);
+                                            //i.putExtra("E/D", "E");
+                                            //startActivity(i);
+                                            //finish();
+                                        }
+                                    })
+                                    .show();
+
+
+
                         }
 
                     }

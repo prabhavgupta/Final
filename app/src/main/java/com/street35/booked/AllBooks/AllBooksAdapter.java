@@ -131,8 +131,13 @@ public class AllBooksAdapter extends RecyclerView.Adapter<AllBooksAdapter.MyView
                 String image_url = booksModel.book_image;
                 Context context = holder.book_image.getContext();
 
-
+                if(image_url.equals("No Data")){
+                    image_url="http://dacssgranites.com/wp-content/uploads/2015/08/1429098017no-preview-available.jpg";
+                }
                 Picasso.with(context).load(image_url)
+                        .resize(100,150)
+                        .onlyScaleDown()
+                        .centerCrop()
                         //.centerCrop()
                         //.skipMemoryCache()
                         //.memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
@@ -209,13 +214,19 @@ public class AllBooksAdapter extends RecyclerView.Adapter<AllBooksAdapter.MyView
         book_name.setText(bname);
         owner.setText(fn + " " + ln);
         Log.d("Name",fn + ln + "dsds");
-
+        if(url.equals("No Data")){
+            url="http://dacssgranites.com/wp-content/uploads/2015/08/1429098017no-preview-available.jpg";
+        }
+        Log.d("Image url in all books", url);
        Picasso.with(book_img.getContext()).load(url)
                 //.onlyScaleDown()
                // .centerCrop()
                // .skipMemoryCache()
                 //.memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
                 //.networkPolicy(NetworkPolicy.NO_CACHE)
+               .resize(100,150)
+               .onlyScaleDown()
+               .centerCrop()
                 .into(book_img);
 
         // setup a dialog window

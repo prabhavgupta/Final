@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -27,7 +28,10 @@ import com.street35.booked.R;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyViewHolder> implements RecyclerView.OnItemTouchListener {
@@ -118,7 +122,10 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
         String image_url = booksModel.book_image;
          Context context = holder.book_image.getContext();
 
-
+        if(image_url.equals("No Data")){
+            image_url="http://dacssgranites.com/wp-content/uploads/2015/08/1429098017no-preview-available.jpg";
+        }
+        Log.d("url", image_url);
 
         Picasso.with(context).load(image_url)
                 .resize(100,150)
@@ -160,7 +167,7 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
                             @Override
                             public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
                                 // TODO
-                                String url ="http://booked.16mb.com/ExchangeBook.php?bid="+booksModel.bid;
+                                String url ="http://booked.unaux.com/ExchangeBook.php?bid="+booksModel.bid;
                                 Log.d("url",url);
 
                                 StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
@@ -177,7 +184,17 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
                                     public void onErrorResponse(VolleyError error) {
                                         //perform operation here after getting error
                                     }
-                                });
+                                } ) {
+
+                                    @Override
+                                    public Map<String, String> getHeaders() throws AuthFailureError {
+                                        Map<String, String>  params = new HashMap<String, String>();
+                                        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
+                                        return params;
+                                    }
+
+                                };
+
 
                                 VolleySingleton.getInstance(v.getContext()).addToRequestQueue(stringRequest);
 
@@ -191,7 +208,7 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
                             public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
                                 // TODO
 
-                                String url ="http://booked.16mb.com/DeleteBook.php?bid="+booksModel.bid;
+                                String url ="http://booked.unaux.com/DeleteBook.php?bid="+booksModel.bid;
                                 Log.d("url",url);
 
                                 StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
@@ -208,7 +225,16 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
                                     public void onErrorResponse(VolleyError error) {
                                         //perform operation here after getting error
                                     }
-                                });
+                                }){
+
+                                    @Override
+                                    public Map<String, String> getHeaders() throws AuthFailureError {
+                                        Map<String, String>  params = new HashMap<String, String>();
+                                        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
+                                        return params;
+                                    }
+
+                                };
 
                                 VolleySingleton.getInstance(v.getContext()).addToRequestQueue(stringRequest);
 
@@ -221,7 +247,7 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
                             public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
                                 // TODO
 
-                                String url ="http://booked.16mb.com/DonateBook.php?bid="+booksModel.bid;
+                                String url ="http://booked.unaux.com/DonateBook.php?bid="+booksModel.bid;
                                 Log.d("url",url);
 
                                 StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
@@ -238,7 +264,16 @@ public class UserBooksAdapter extends RecyclerView.Adapter<UserBooksAdapter.MyVi
                                     public void onErrorResponse(VolleyError error) {
                                         //perform operation here after getting error
                                     }
-                                });
+                                }){
+
+                                    @Override
+                                    public Map<String, String> getHeaders() throws AuthFailureError {
+                                        Map<String, String>  params = new HashMap<String, String>();
+                                        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
+                                        return params;
+                                    }
+
+                                };
 
                                 VolleySingleton.getInstance(v.getContext()).addToRequestQueue(stringRequest);
 
