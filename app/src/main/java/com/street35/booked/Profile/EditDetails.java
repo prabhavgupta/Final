@@ -2,11 +2,14 @@ package com.street35.booked.Profile;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.LightingColorFilter;
 import android.location.Address;
 import android.location.Geocoder;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +27,7 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.android.volley.Response;
 import com.street35.booked.NetworkServices.EditProfileRequest;
 import com.street35.booked.NetworkServices.GetProfileDetails;
+import com.street35.booked.NetworkServices.NotConnected;
 import com.street35.booked.NetworkServices.VolleySingleton;
 import com.street35.booked.R;
 
@@ -48,11 +52,31 @@ public class EditDetails extends AppCompatActivity {
     SharedPreferences.Editor editor;
     ImageView sexicon,contacticon,universityicon,locationicon;
 
+    public static boolean isConnected(Context context){
+        ConnectivityManager cm = (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        return activeNetwork!=null && activeNetwork.isConnectedOrConnecting();
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_profile);
+
+        boolean conn = isConnected(EditDetails.this);
+
+        if (!conn) {
+            Intent i = new Intent(EditDetails.this, NotConnected.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            getFragmentManager().popBackStack();
+            Log.d("Tag", "Yahan se gya tha bro");
+
+            startActivity(i);
+            EditDetails.this.finish();
+
+        }
+
         sharedPref = this.getSharedPreferences("Login", Context.MODE_PRIVATE);
         editor = sharedPref.edit();
 

@@ -66,10 +66,16 @@ public class UserInfo extends AppCompatActivity {
 
                 String MobilePattern = "[0-9]{10}";
 
-                if (!contact.getText().toString().matches(MobilePattern)||contact.getText().toString().length()>13||contact.getText().toString().length()>10 ) {
+                 if(address.getText().toString().isEmpty()){
+
+                    Snackbar.make(view, "Enter your Home Address", Snackbar.LENGTH_LONG).show();
+                }else if(university.getText().toString().isEmpty()){
+
+                    Snackbar.make(view, "Enter your University Name", Snackbar.LENGTH_LONG).show();
+                }else if (!contact.getText().toString().matches(MobilePattern)||contact.getText().toString().length()>13||contact.getText().toString().length()>10 ) {
 
                     Snackbar.make(view, "Enter a valid number", Snackbar.LENGTH_LONG).show();
-                } else {
+                }else {
                     add = address.getText().toString();
                     uni = university.getText().toString();
                     con = contact.getText().toString();

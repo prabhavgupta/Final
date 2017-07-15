@@ -85,7 +85,6 @@ public class MyBooks extends android.app.Fragment implements GoogleApiClient.OnC
                 .backgroundColor(Color.WHITE)
                 .show();
 
-        boolean conn = isConnected(getActivity());
 
 
         swipeLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipelayout);
@@ -93,15 +92,17 @@ public class MyBooks extends android.app.Fragment implements GoogleApiClient.OnC
 
 
 
+        boolean conn = isConnected(getActivity());
 
         if (!conn) {
             Intent i = new Intent(getActivity(), NotConnected.class);
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
             i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             getFragmentManager().popBackStack();
+            Log.d("Tag", "Yahan se gya tha bro");
             dialog.dismiss();
             startActivity(i);
-
+            getActivity().finish();
 
         }
 

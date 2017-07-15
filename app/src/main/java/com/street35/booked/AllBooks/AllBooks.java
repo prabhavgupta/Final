@@ -91,6 +91,7 @@ import java.util.List;
             getFragmentManager().popBackStack();
             dialog.dismiss();
             startActivity(i);
+            getActivity().finish();
 
         }
 

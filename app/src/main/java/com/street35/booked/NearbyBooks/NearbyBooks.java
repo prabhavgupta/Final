@@ -82,6 +82,7 @@ public class NearbyBooks extends android.app.Fragment implements
             i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
             startActivity(i);
+            getActivity().finish();
 
 
         }

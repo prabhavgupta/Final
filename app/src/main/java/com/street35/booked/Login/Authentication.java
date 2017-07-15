@@ -94,10 +94,26 @@ public class Authentication extends AppCompatActivity
     private GoogleApiClient mGoogleApiClient;
     private ProgressDialog mProgressDialog;
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+
+        boolean conn = isConnected(Authentication.this);
+
+
+        if (!conn) {
+            Intent i = new Intent(Authentication.this, NotConnected.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            Log.d("Tag", "Yahan se gya tha bro");
+            startActivity(i);
+            Authentication.this.finish();
+
+        }
+
 
 
         mAuth = FirebaseAuth.getInstance();
@@ -400,6 +416,8 @@ public class Authentication extends AppCompatActivity
                 });
     }
 
+
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -430,6 +448,7 @@ public class Authentication extends AppCompatActivity
             String personPhotoUrl = acct.getPhotoUrl().toString();
             final String email = acct.getEmail();
             final String lastName = acct.getFamilyName();
+
 
             Log.e(TAG, "Name: " + personName + ", email: " + email
                     + ", Image: " + personPhotoUrl);
@@ -467,15 +486,16 @@ public class Authentication extends AppCompatActivity
 
                             //String s = sharedPref.getString("username", "NoValue");
 
+
                             if(jsonObject.getString("university").equals("NULL") ||
                                  jsonObject.getString("contact").equals("NULL")||
                                     jsonObject.getString("address").equals("NULL") ||
                                     jsonObject.getString("university") == null ||
                                     jsonObject.getString("contact") == null ||
                                     jsonObject.getString("address")  == null ||
-                                    jsonObject.getString("university").isEmpty() ||
-                                    jsonObject.getString("contact").isEmpty() ||
-                                    jsonObject.getString("Address").isEmpty()
+                                    jsonObject.isNull("university") ||
+                                    jsonObject.isNull("contact") ||
+                                    jsonObject.isNull("address")
                                     ){
 
                                 Log.d(TAG,"Json in");
@@ -552,6 +572,7 @@ public class Authentication extends AppCompatActivity
             //handleSignInResult(result);
 
             SharedPreferences sharedPref=getSharedPreferences("Login", Context.MODE_PRIVATE);
+            Log.d(TAG, sharedPref.getString("address","a") + " : " + sharedPref.getString("contact","a") + ":" + sharedPref.getString("university","a"));
             if( sharedPref.getString("address","a")=="a" ||
                     sharedPref.getString("contact","a")=="a" ||
                     sharedPref.getString("university","a")=="a" )
