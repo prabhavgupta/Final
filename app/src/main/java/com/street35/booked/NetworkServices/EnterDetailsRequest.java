@@ -16,13 +16,13 @@ public class EnterDetailsRequest extends StringRequest
 
 
 
-        private static final String Log_req_url = "http://booked.unaux.com/EnterBooks.php";
+        private static final String Log_req_url = "http://ieeedtu.com/testbook/EnterBooks.php";
         private Map<String, String > params;
 
         public EnterDetailsRequest( String username , String imageurl ,String bookname , String bookauthor,
                                     String ed, String date,
                                     Response.Listener<String> listener){
-            super(Request.Method.POST, Log_req_url , listener, null);
+            super(Request.Method.GET, Log_req_url , listener, null);
             params= new HashMap<>();
             params.put("username",username);
             params.put("imageurl",imageurl);
@@ -40,7 +40,6 @@ public class EnterDetailsRequest extends StringRequest
     @Override
     public Map<String, String> getHeaders() throws AuthFailureError {
         Map<String, String>  params = new HashMap<String, String>();
-        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
 
         return params;
     }

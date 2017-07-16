@@ -12,14 +12,14 @@ import java.util.Map;
  */
 public class EditProfileRequest extends StringRequest{
 
-    private static final String Reg_req_url = "http://booked.unaux.com/profile.php";
+    private static final String Reg_req_url = "http://ieeedtu.com/testbook/profile.php";
     private Map<String, String > params;
 
     public EditProfileRequest(String first_name, String last_name, String university,
                               String contact, String address, String sex , String email ,String lt,
                               String ln, Response.Listener<String> listener){
 
-        super(Method.POST, Reg_req_url , listener , null);
+        super(Method.GET, Reg_req_url , listener , null);
 
 
         params= new HashMap<>();
@@ -44,7 +44,6 @@ public class EditProfileRequest extends StringRequest{
     @Override
     public Map<String, String> getHeaders() throws AuthFailureError {
         Map<String, String>  params = new HashMap<String, String>();
-        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
 
         return params;
     }

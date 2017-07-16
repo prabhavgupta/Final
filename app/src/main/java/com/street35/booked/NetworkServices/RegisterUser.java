@@ -13,12 +13,12 @@ import java.util.Map;
 
 public class RegisterUser extends StringRequest {
 
-    private static final String Reg_url = "http://booked.unaux.com/register.php";
+    private static final String Reg_url = "http://ieeedtu.com/testbook/register.php";
     private Map<String, String > params;
 
     public RegisterUser(String fname, String lname , String email, String password ,
                         String loc , double lat, double lon, String phone , Response.Listener<String> listener){
-        super(Method.POST, Reg_url, listener, null);
+        super(Method.GET, Reg_url, listener, null);
         params= new HashMap<>();
         params.put("first_name",fname);
         params.put("last_name",lname);

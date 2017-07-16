@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\fadc691ffec230b0dc82036f342f3340d57c14e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="52734af07d103e5251d63f18ff9d88aa94a16425">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_28ed743d44948d5e262c74bcf7c545b18acdf426\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.1\11ea7eeda00b1bb92accba250ee7c8740bdebc19\firebase-client-jvm-2.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="11ea7eeda00b1bb92accba250ee7c8740bdebc19">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.1_c611500c896aa8e44785401f100162ea17fd0404\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\afb877493c01c80db0898133326cf6129d267d6f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42cfdc4c800855ca91fc17237d1d77689bd25123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\e757afee96bd8a20fbe0afa9bcfdc71cba602b68\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_775277ef3e482f6347a86d250d5f202fee348a45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\09ae4c6f8691f965c68a97a7684a7d2558d3a6f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b0fa14dd857d68df994716adb99bb6759879d0f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\f429f1d514e24784e3b103a1884e96405729d497\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c01cbc3e8245c83999fc304a0292b6a447600a81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\501c9115d70bf3f7f0e4652fe6179afe9b7399b1\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1b1612f999542b53634bbce581552971d6f7bb5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\b6c654c242ab09b57d54ff38defdcfdc9f221e88\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94a6f422a5da053576611ec7d7d971d5bc48c1d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\b13d9790978715800ea6d673517b07e9ca6c70e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_77d787ebb81b91510691e109e886cc54dccdfa4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\7631d7a634bb67fb307b3881eb647325f544b1b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e23b78a184d3262fded46f4799f3b529aaca5b1">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad12917c464df1cf213bcd832742618da7194e6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\e8247413a39dc6ade77f1b4445c79cfc636367f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_52f6940d8436a59bf0ab23fb86963cfb913ec394\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\13a0166461106809025cb1a0460ca9791d4fba5c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ead3d77f924fa6616d99fc0961c8110961fa971\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\d796b91fb556b2b827628719850ecb01b8307260\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_987ce72d62da74edb88d225bb75f8d6d2019fdb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\a8bf7eeae3d03efb970f30a2bbcbb256cb126909\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1483178ee74ac664c12399e3e66d42a117f79eeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\10995e0643b7a5efe0f3a451f9209e6b739a741a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_665a08fa4f215e6736cd9310e41cdaaede669364\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\f45a1c1afc5c79a00398125d41a6b779f07047f3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a8f261229f389de873ef05eb8d242d0c27e3f3ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\19768ae7a80056d1b5c5cfe62d87811f5d6f6d0c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f0fdfbe435faa4fc03e6c6cb21ca372eb60a9217\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_15160971e6688b61614b35b1e932782fa9472df2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_516ea05a36e9b9dab04d20e5e3f415b3cb5d55f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\dcf3d64879faedfc4ca3eab10068a5b8df5cadda\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96591e37376e9d56983bfdf311392c3d0576cea1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\2e66d95795ffa4ff45e6b7e405550ad73f047393\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9206e44f0956e2e39748867a27178a40e1ba75eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\a06379371f8868bcfee041fe5f9510d3cd828575\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dac0417ca19299bd04cdf7bcfb63138188e5d199\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\df3acae81d0cb44126eaf57835d205fd27442ff3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_776c6dc9f6f815c84a22a375bab0be66442862c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha9\constraint-layout-solver-1.0.0-alpha9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha9_b9bcbb68d86673aa18e3b827a7e5b1ed9a7366e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_c8f699238bce6ef3917d2c52115c8db1d23131a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\e7616ea6c3f8db3f5ad396205cc87a4fc3db25b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e14967cb5f5811568466d6ab00effba5f3ca018a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_65bca4711cad5110bb23052619e6853d14dbe3aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\2076352cc77a2c4f99fc422052b147907fab5534\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32321922fd0c53945d5af226f471dd769a4d7b93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\e757afee96bd8a20fbe0afa9bcfdc71cba602b68\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_60ba3b27e3f19b97a9c651c20304a6feabd2412d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_c6d7684dd6f8ec23d83fed47a01f9634179a3fed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\a88eaa3e935bfa8d6538e6bea7904fb72bc93d83\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_014912411a2f78d9a2ff7dfcf11559bf10797eec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\6d26ff3ec6ddb526a822adaee264165e8979ba2c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d4551f841956496ae1f41d1db92dafc2f57a5e0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\0e41e56dbee4ee8b0486022cb25ea441c1f041db\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e60335c9543addacda633ea37bd05669fdf94d92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\57185f3db6fac44c413a6fd10aacc48f17fc7be1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_565d203d30e6fbb4487201b69ed74027ada8b9cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\31dc847b1fdcb73a4f05d0d6bddc2f6246bd7124\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0e0143f9e3294f96c4521c899d7ab7417916c70f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\bc36c18c3471051e7c344f892d225d28179adcbe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2e981ce625e14302dc144b1e92f7ddef9a00364\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\d6760dcfb7cb08fc28d29326e23972680d5975cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="814fc0c3ec69a944add398217d90077301501a74">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a9713e287ffc22a92d4dc43aa1434c391d174743\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\e8db03aa4887604170b0c30eff2eae748992f3bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9cf3d6596a92e83c97fd5d86b8a2fd062eba76e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\6b6a0550487752eee0bbdd9425043530a2209778\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d5455171411da76da862ce5f4a3378f58c53f905\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\c330e82c2565a264fd4b8605d8bfe1dbf03635de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4234bd96344a30c7130d4bd89f3ab9116c30931b">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f53314c7b8750d581d48a8babe6b62e64f514fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\2e1d91f3c5166f1b0041076668adf27cca8a2284\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f589b7cc97644f78065a123b0aedca92ed69ac6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\ebbf145edb195c653dbf5d204cdd1cfbb9fb12fb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ce7829e3c29bb9ac14a10c12c40c04d9a690f77e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\4d2df055a4f99b9cdd1d4040d76aa9bb4a9c8f5a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_158c6c569baeec7f7fe593b03eeccb04eacdd049\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\8fb9f6db62e3976a55de1e8e8052b8716de2e0e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9e6be661806b51de57f595e68bf8be1c0af6738\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\5510100eb87fc0f7fa7ce7b7fa8a8cc6febea594\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_db78336827ae613425a9527340745d00cf6172ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.1\8c94ae916de454be497782505e3e6fd437a28b95\firebase-client-android-2.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c94ae916de454be497782505e3e6fd437a28b95">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.1_de0b54d9b70ed4f80b20f8701814d8bda2c39f1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\f429f1d514e24784e3b103a1884e96405729d497\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0c62ea6259f8cf9cb3986c19a659a3885bd6511b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\9e09a5a7c883ac4bcc779a75ef8a99c921476213\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68d01b4df0bd55d26fd5454d0cce9a9ed7079c6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\72b1e03d3488d2837e7f08866033d6a6a0e20552\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b184fa1afa411a72f20e4e701f0c605df059e044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\4b267cc67df97251c96777da5a84e99215801472\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9798d16e8333fb43f8f500811788a6c5775e7d11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\501c9115d70bf3f7f0e4652fe6179afe9b7399b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e2558f5b9c5f9f3cad68a335fa52a4a4e7d7742b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_e292eca75063e6cdd78d9789aebb2d4be8d47f14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_ca2dedffea03151e7b2372b49518a87b55c5b3ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\6b6a0550487752eee0bbdd9425043530a2209778\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85b8b0cf98dfb9208c842ec2a44a3f9978eb7ac0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\b130339978940c6e33c917e6680604b02aba41d7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc61adad791b96c2e793e87d6d3f3d073e02ada1">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3665223f8086d86d8c5670baa072ec0a08802aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\6691d1c7cc74d62879ccd0e87c175a43198a6db5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8edd7bb750d5afb22db502f408890448f88571f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\31dc847b1fdcb73a4f05d0d6bddc2f6246bd7124\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_addbbb773364ecf82b7a9e97a7715b8c2b82a027\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\bc36c18c3471051e7c344f892d225d28179adcbe\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9c2c6935874dd3b0d07ff375b9cc00e707a9c010\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Weirdo\.android\build-cache\0c1d543c3d8f7a651235590282692aa7895200fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\Project-X01-master (1)\Project-X01-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b66bdedaa67e8a01f01fd9d964923f3185b48779\classes.dex" />
+    </item>
+
+</items>

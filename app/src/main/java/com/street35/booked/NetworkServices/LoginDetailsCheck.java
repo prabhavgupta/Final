@@ -14,11 +14,12 @@ import java.util.Map;
 
 public class LoginDetailsCheck extends StringRequest {
 
-    private static final String FirstEntry_url = "http://booked.unaux.com/FirstEntry.php";
+    private static final String FirstEntry_url = "http://ieeedtu.com/testbook/FirstEntry.php";
+    
     private Map<String, String > params;
 
     public LoginDetailsCheck(String email , String fname , String lname , Response.Listener<String> listener){
-        super(Request.Method.POST, FirstEntry_url , listener, null);
+        super(Request.Method.GET, FirstEntry_url , listener, null);
         params= new HashMap<>();
         params.put("email",email);
         params.put("fname",fname);
@@ -34,8 +35,9 @@ public class LoginDetailsCheck extends StringRequest {
     @Override
     public Map<String, String> getHeaders() throws AuthFailureError {
         Map<String, String>  params = new HashMap<String, String>();
-        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
-
+      /*  params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
+        params.put("Content-Type", "application/json; charset=utf-8");
+        */
         return params;
     }
 

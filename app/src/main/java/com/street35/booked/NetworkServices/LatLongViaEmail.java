@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public class LatLongViaEmail extends StringRequest {
 
-    private static final String LatLong_url = "http://booked.unaux.com/BooksAndLocation.php";
+    private static final String LatLong_url = "http://ieeedtu.com/testbook/BooksAndLocation.php";
     private Map<String, String > params;
 
     public LatLongViaEmail(String email , Response.Listener<String> listener){
@@ -31,7 +31,6 @@ public class LatLongViaEmail extends StringRequest {
     @Override
     public Map<String, String> getHeaders() throws AuthFailureError {
         Map<String, String>  params = new HashMap<String, String>();
-        params.put("Cookie","__test=44c3613f5fdf5542f710c31f6a68779a; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/");
 
         return params;
     }
